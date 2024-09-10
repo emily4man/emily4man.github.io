@@ -1,44 +1,44 @@
 body{
-    font-family: Helvetica, Arial, sans-serif;
-    margin: 0px;
-    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif; /* setting the fonts */
+    margin: 0px; /* making the body the full webpage */
+    font-size: 1vw; /* setting the font size in relation to the page width*/    
 }
 
-#logo {
+#logo{
     margin: 0px;
     padding: 8px;
-    color: white;
-    font-family: "Fredoka One", sans-serif;
-    width: 16%;
+    color: white; /* sets the colour of the logo*/
+    font-family: "Fredoka One", sans-serif; /* sets the font of the logo*/
+    width: 16%; /* sets width of the logo */
 }
 
-ul { 
+ul{
     margin: 0px;
 }
 
 body > header{
-    background-color: orange; 
-    display: flex;
+    background-color: lightpink; /* sets colour of header area*/
+    display: flex; /* this re-arranges the logo and links */
     height: 12vh;
     align-items: center;
     justify-content: space-around;
 }
 
-#nav-ul {
+#nav-ul{
     display: flex;
 }
 
-#nav-ul > li {
+#nav-ul > li{
     padding: 8px;
     margin: 16px;
 }
 
-body > header > nav > ul {
+body > header > nav > ul{
     list-style: none;
     text-decoration: none;
 }
 
-.navbutton {
+.navbutton{
     color: white;
     text-decoration: none;
     padding: 12px;
@@ -46,35 +46,32 @@ body > header > nav > ul {
     border-radius: 10%;
 }
 
-body > main article {
+body > main article{
     width: 70%;
     margin: auto;
 }
 
-#main-content {
+#main-content{
     display: flex;
-    justify-content: space-around ;
+    justify-content: space-around;
 }
 
-#main-content > div {
+#main-content > div{
     width: 70%;
 }
 
-form {
+form{
     text-align: center;
 }
 
-h2 {
-    text-align: center; 
+h2{
+    text-align: center;
 }
 
-body > footer {
-    background-color: orange;
+body > footer{
+    background-color: lightpink;
     display: flex;
-}
-
-img {
-    border-radius: 50%;
+    color: white;
 }
 
 #footer-ul{
@@ -82,11 +79,11 @@ img {
     list-style: none;
 }
 
-#footer-ul > div > li {
+#footer-ul > div > li{
     margin-left: 20px;
 }
 
-#footer-ul > div > li > a {
+#footer-ul > div > li > a{
     color: white;
     text-decoration: none;
 }
